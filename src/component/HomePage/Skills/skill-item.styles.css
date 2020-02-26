@@ -1,0 +1,15 @@
+/* skill Item */
+.skills-icon {
+  font-size: 3rem;
+  color: var(--mainYellow);
+  background: #D8D6D6;
+}
+.skills-icon:hover {
+  color: var(--mainYellow);
+}
+.skills-underline {
+  width: 4rem;
+  height: 0.3rem;
+  background: var(--mainOrange);
+  margin: 1rem auto;
+}

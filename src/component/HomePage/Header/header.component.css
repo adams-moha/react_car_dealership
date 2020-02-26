@@ -1,0 +1,51 @@
+/* header */
+.header {
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
+  color: var(--mainWhite);
+  overflow: hidden;
+}
+.height-max {
+  min-height: calc(100vh - 76px);
+  background: url("./../../../resources//img//headerBcg.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  animation-name: zoom;
+  animation-duration: 20s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2) translateX(-5%);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.title-heading {
+  background: rgba(0, 0, 0, 0.4);
+  border-left: 0.3rem solid var(--mainOrange);
+}
+.title {
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+.title-icon {
+  color: var(--mainOrange);
+  text-decoration: none !important;
+}
+.title-icon:hover {
+  color: var(--mainOrange);
+  opacity: 0.6;
+}

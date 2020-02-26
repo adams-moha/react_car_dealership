@@ -1,0 +1,20 @@
+.featured-item {
+  background: var(--mainWhite);
+  border-radius: 0.5rem;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+.featured-item:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+.featured-icon {
+  font-size: 1.5rem;
+  color: var(--mainYellow);
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+.featured-icon:hover {
+  color: var(--mainOrange);
+}
